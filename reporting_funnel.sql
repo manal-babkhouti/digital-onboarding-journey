@@ -237,7 +237,7 @@ Exemple : prospects qui abandonnent à la biométrie
 SELECT
     canal, agence, age, offre_bancaire
 FROM prospects_cih
-WHERE biometrie_reussie = 0 AND cin_uploadee = 1; -- tu peux faire pour n’importe quelle étape
+WHERE biometrie_reussie = 0 AND cin_uploadee = 1; -- peut être fait pour n’importe quelle étape
 
 
 /***********************************************************************
