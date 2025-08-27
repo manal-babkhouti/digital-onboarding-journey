@@ -2,7 +2,7 @@ import pandas as pd
 import pyodbc
 
 # 1. Charger les données synthétiques
-df = pd.read_csv("data/donnees_prospects_CIH.csv")  # adapte le chemin si besoin
+df = pd.read_csv("data/donnees_prospects_CIH.csv")  
 
 # 2. Connexion à SQL Server
 conn_str = (
